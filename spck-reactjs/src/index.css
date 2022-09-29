@@ -1,0 +1,158 @@
+*{
+  list-style: none;
+  font-family: "Work Sans",sans-serif;
+  border: none;
+  
+}
+a{
+  text-decoration: none;
+}
+.search-block{
+  width: 100%;
+  height: 100px;
+  
+  animation: block linear 0.5s;
+  position: fixed;
+  top: 0;
+  right: -271px;
+  background: white;
+  border-left: 1px solid #ccc;
+  
+    
+
+}
+@keyframes block {
+  from {
+    transform: translateY(-100%);
+    
+  }
+  to{
+    
+  }
+}
+@keyframes block1 {
+  from {
+    opacity: 0;;
+    
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.delete-block{
+  float: right;
+  
+  margin-right: 318px;
+
+  font-size: 30px;
+  color: #201d1d;
+  cursor: pointer;
+  margin-top: -56px; 
+}
+
+
+
+.header{
+  position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 271px;
+    
+    
+    
+   
+    
+}
+.header_first{
+  padding-top: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.title_header{
+  
+    height: 48px;
+  
+}
+.nav_header{
+  margin-bottom: auto;
+  text-align: center;
+  margin-right: 45px;
+ 
+}
+.ul_nav_header{
+ 
+  margin-top: 88px;
+}
+.ul_nav_header  li  {
+  margin: 34px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  
+  position: relative;
+
+
+}
+.ul_nav_header a{
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+.ul_nav_header  li span:hover{
+
+      border-bottom: 1px solid #1c1c1c;
+      cursor: default;
+
+}
+.icon_header{
+  margin-left: 25px;
+  margin-bottom: 46px;
+}
+.icon_header span{
+  padding-right: 20px;
+ 
+ 
+}
+.cart-header{
+  margin-bottom: auto;
+  text-transform: uppercase;
+}
+
+.cart-header span a {
+  color: #1c1c1c;
+  
+  
+}
+.search-header{
+  margin-bottom: auto;
+  text-transform: uppercase;
+}
+.span_icon{
+  color: #565656;
+  letter-spacing: .01em;
+  font-size: 14px;
+}
+.content{
+
+    width: 100%;
+    margin-left: 271px;
+    height: 1000px;
+    background-color: #ccc;
+}
+.content-menu{
+  height: 200px;
+  width: 200px;
+  
+}
+.footer{
+  background-color: #1c1c1c;
+
+  width: 100%;
+  height: 200px;
+}
